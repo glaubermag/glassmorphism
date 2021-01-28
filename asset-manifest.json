@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/glassmorphism/static/css/main.6e39cd14.chunk.css",
+    "main.js": "/glassmorphism/static/js/main.1a21c79a.chunk.js",
+    "main.js.map": "/glassmorphism/static/js/main.1a21c79a.chunk.js.map",
+    "runtime-main.js": "/glassmorphism/static/js/runtime-main.6560cec9.js",
+    "runtime-main.js.map": "/glassmorphism/static/js/runtime-main.6560cec9.js.map",
+    "static/js/2.ed7af59a.chunk.js": "/glassmorphism/static/js/2.ed7af59a.chunk.js",
+    "static/js/2.ed7af59a.chunk.js.map": "/glassmorphism/static/js/2.ed7af59a.chunk.js.map",
+    "index.html": "/glassmorphism/index.html",
+    "static/css/main.6e39cd14.chunk.css.map": "/glassmorphism/static/css/main.6e39cd14.chunk.css.map",
+    "static/js/2.ed7af59a.chunk.js.LICENSE.txt": "/glassmorphism/static/js/2.ed7af59a.chunk.js.LICENSE.txt",
+    "static/media/background.582748ec.png": "/glassmorphism/static/media/background.582748ec.png",
+    "static/media/bottomLeft.9b9188ad.png": "/glassmorphism/static/media/bottomLeft.9b9188ad.png",
+    "static/media/rightImg.353a1419.png": "/glassmorphism/static/media/rightImg.353a1419.png",
+    "static/media/topImg.67bc606d.png": "/glassmorphism/static/media/topImg.67bc606d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6560cec9.js",
+    "static/js/2.ed7af59a.chunk.js",
+    "static/css/main.6e39cd14.chunk.css",
+    "static/js/main.1a21c79a.chunk.js"
+  ]
+}
