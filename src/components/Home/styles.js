@@ -8,6 +8,14 @@ height: 100vh;
 width: 100%:
 margin: 0px;
 padding: 0px;
+
+@media only screen and (max-width: 1100px) {
+
+justify-content: center;
+align-items: center;
+} 
+
+
 `;
 
 export const Header = styled.div`
@@ -21,7 +29,9 @@ export const Header = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin: auto;
   justify-content: center;
+
   #topImg {
     position: absolute;
     top: -130px;
@@ -42,6 +52,29 @@ export const Header = styled.div`
   }
 
 
+
+  @media only screen and (max-width: 1100px) {
+    #topImg {
+      width: 200px; 
+      position: absolute;
+      top: -65px;
+      left: 30px;
+    }
+    #righImg {
+      width: 250px;
+      position: absolute;
+      right: 0px;
+      top: 100px;
+    }
+    #bottomLeft {
+      position: absolute;
+  
+      left: 0px;
+      bottom: 10px;
+    }
+
+
+  } 
 `;
 
 export const Info = styled.div`
@@ -49,9 +82,9 @@ export const Info = styled.div`
   width: 100%;
   z-index: 10;
   display: flex;
-  justify-content: space-between;
+  justify-content: space- ;
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1100px) {
     display: flex;
     flex-wrap: wrap;
   }
@@ -59,7 +92,7 @@ export const Info = styled.div`
 
 export const InfoTitle = styled.div`
   width: 480px;
-
+  height: 100%;
   h1 {
     font-family: "Lato", sans-serif;
     font-style: normal;
@@ -123,6 +156,28 @@ export const InfoTitle = styled.div`
       right: 0;
     }
   }
+
+
+  @media only screen and (max-width: 1100px) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 330px;
+    margin: auto;
+    padding-bottom: 2em;
+
+    h1 {
+      padding-top: 2em;
+      font-size: 30px;
+
+    }
+
+    p {
+
+      font-size: 14px;
+
+    }
+  } 
+
 `;
 export const InfoCard = styled.div`
   width: 500px;
@@ -133,16 +188,20 @@ export const InfoCard = styled.div`
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-right: none;
   padding-left: 50px;
+  margin: auto;
 
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 1100px) {
     display: flex;
     flex-wrap: wrap;
-  }
+    flex-direction: row;
+    width: 300px;
+    height: 230px;
+    margin: auto;
+  } 
 `;
 
 export const CardTitle = styled.div`
   h2 {
-    margin-top: 0;
     padding-top: 0;
     font-family: Lato;
     font-style: normal;
@@ -152,14 +211,32 @@ export const CardTitle = styled.div`
     color: #ffffff;
     margin-top: 40px;
   }
+  @media only screen and (max-width: 1100px) {
+    
+    h2 {     margin-top: 30px;
+      font-size: 18px;
+      line-height: 18px;
+
+
+    }
+    
+  } 
 `;
 
 export const CardChip = styled.div`
   margin-top: 35px;
   margin-bottom: 35px;
+  @media only screen and (max-width: 1100px) {
+    width: 100%;
+     margin-top: 5px;
+      margin-bottom: 5px;
+    
+  } 
 `;
 
 export const CardFooter = styled.div`
+width: 100%;
+
   .alignleft {
     float: left;
   }
@@ -167,7 +244,6 @@ export const CardFooter = styled.div`
     float: right;
     margin-right: 30px;
   }
-
   h2 {
     font-family: Lato, sans-serif;
     font-style: normal;
@@ -188,4 +264,10 @@ export const CardFooter = styled.div`
     text-transform: uppercase;
     color: #ffffff;
   }
+
+
+  @media only screen and (max-width: 1100px) {
+    .alignright {
+    }
+  } 
 `;
