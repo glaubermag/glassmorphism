@@ -1,4 +1,5 @@
 {
+  "homepage": "http://glaubermag.github.io/glassmorphism",
   "name": "glassmorphism",
   "version": "0.1.0",
   "private": true,
@@ -29,7 +30,7 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
+      "not dead", 
       "not op_mini all"
     ],
     "development": [
