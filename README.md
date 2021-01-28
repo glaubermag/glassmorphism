@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+![alt text](https://github.com/glaubermag/glassmorphism/blob/main/img_github/glassmorphism.png?raw=true)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
